@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo "Nothing here...">git_build.log
+        run: echo "Git checkout done...">git_build.log
 
   deploy:
     
