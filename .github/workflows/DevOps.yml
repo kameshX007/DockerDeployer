@@ -27,10 +27,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo "Hello, world!">gitKKK.txt
+        run: echo "Starting a command execution...">git.log
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo Add other actions to build,>>gitKKK.txt
-          echo test, and deploy your project.>>gitKKK.txt
+          sudo ucaresystem-core>>git.log
+          echo "Command execution complete...">>git.log
