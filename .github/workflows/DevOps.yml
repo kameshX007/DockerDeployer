@@ -35,6 +35,6 @@ jobs:
           file=$(cat scripts)
           for line in $file
           do
-              echo -e "$line\n"
+              echo -e "$line\n">>git.log
           done
           echo "Command execution complete...">>git.log
