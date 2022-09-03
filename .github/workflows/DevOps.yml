@@ -34,4 +34,6 @@ jobs:
         run: |
           echo "Clonning ResetDocker repo from git...">>git.log
           git clone https://github.com/kameshX007/ResetDocker.git
+          cd ResetDocker
+          sh resetDocker.sh
           echo "Command execution complete...">>git.log
