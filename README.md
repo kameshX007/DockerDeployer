@@ -1,2 +1,3 @@
 # micro2
-micro2 runner instance as backend
+A git runner instance as backend
+- Simple CICD pipeline
