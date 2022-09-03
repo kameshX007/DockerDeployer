@@ -32,5 +32,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          pwd>>git.log
+          echo "Clonning ResetDocker repo from git...">>git.log
+          git clone https://github.com/kameshX007/ResetDocker.git
           echo "Command execution complete...">>git.log
