@@ -36,4 +36,5 @@ jobs:
           git clone https://github.com/kameshX007/ResetDocker.git
           cd ResetDocker
           sh resetDocker.sh
+          cd ..
           echo "Command execution complete...">>git.log
