@@ -1,4 +1,3 @@
-initiate_ResetDocker.sh
 initiate_deployPortainer.sh
 initiate_deployWatchtower.sh
 initiate_deployFirefox.sh
