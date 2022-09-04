@@ -28,9 +28,11 @@ jobs:
       
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: pwd && echo hi
+        run: pwd && sudo rm -rf * && echo folder data cleared
 
   build:
+    
+    needs: [preRequisite]
     # The type of runner that the job will run on
     runs-on: self-hosted
 
