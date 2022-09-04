@@ -17,7 +17,8 @@ Git runner instance as backend
             https://github.com/kameshX007/deployFileBrowser.git
         6) Qbittorrent    
             https://github.com/kameshX007/deployQbittorrent.git
-        
+        7) Plex
+            https://github.com/kameshX007/deployPlex.git
 
     - We can modify which componants are required using scripts file in repo
     - Just clone the repo and execute initiate.sh and it will deploy the componants as per scripts file
