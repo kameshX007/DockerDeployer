@@ -48,4 +48,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          sh initiate.sh ${{ env.DOCKER_USER }} ${{ env.VNC_PASSWORD }}
+          sudo sh initiate.sh ${{ env.DOCKER_USER }} ${{ env.VNC_PASSWORD }}
