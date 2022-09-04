@@ -1,1 +1,3 @@
-initiate_deployPlex.sh
+initiate_deployWatchtower.sh
+initiate_deployQbittorrent.sh
+initiate_deployFileBrowser.sh
