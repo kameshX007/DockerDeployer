@@ -13,6 +13,8 @@ Git runner instance as backend
             https://github.com/kameshX007/deployFirefox.git
         4) Kasm VScode (A Kasm streaming container)
             https://github.com/kameshX007/deployVScode.git
+        5) File Browser
+            https://github.com/kameshX007/deployFileBrowser.git    
 
     - We can modify which componants are required using scripts file in repo
     - Just clone the repo and execute initiate.sh and it will deploy the componants as per scripts file
