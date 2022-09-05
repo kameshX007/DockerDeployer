@@ -3,14 +3,14 @@
 #A docker folder will be created inside this users home directory and container persistant data will be stored there
 dockerUser=$1;
 vncPassword=$2;
-plexClaim=$3;
+
 [ -z "$dockerUser" ] && echo "###Please pass username...!!!">>git_deploy.log && exit 0 || echo "Starting scripts execution for user $dockerUser">>git_deploy.log;
 
-file=$(cat scripts)
+file=$(cat services)
 for line in $file
 do
     echo "Executing $line ...">>git_deploy.log
-    sh $line $dockerUser $vncPassword $plexClaim
+    sh $line $dockerUser $vncPassword
     echo "$line executed successfully...">>git_deploy.log
 done
 echo "Scripts execution complete...">>git_deploy.log
