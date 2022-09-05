@@ -29,6 +29,7 @@ A simple CICD pipeline using git actions
 
 - We can modify which componants are required using 'services' file in repo
 - Just clone the repo and execute initiate.sh and it will deploy the componants as per services file
+
 - The initiate.sh needs following two arguments for this workflow : 
     - $1 as 'username'
         This workflow will create a docker folder inside this users home directory to store the docker persistant volume.
