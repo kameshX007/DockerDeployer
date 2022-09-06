@@ -12,19 +12,13 @@ A simple CICD pipeline using git actions
     2) Watchtower
         https://github.com/kameshX007/deployWatchtower.git
 
-    3) Firefox (A Kasm streaming container)
-        https://github.com/kameshX007/deployFirefox.git
-
-    4) Kasm VScode (A Kasm streaming container)
-        https://github.com/kameshX007/deployVScode.git
-
-    5) File Browser
+    3) File Browser
         https://github.com/kameshX007/deployFileBrowser.git
 
-    6) Qbittorrent    
+    4) Qbittorrent    
         https://github.com/kameshX007/deployQbittorrent.git
 
-    7) Jellyfin
+    5) Jellyfin
         https://github.com/kameshX007/deployJellyfin.git
 
 - We can modify which componants are required using 'services' file in repo
