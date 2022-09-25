@@ -1,5 +1,5 @@
 # Docker Deployer
-A simple CICD pipeline using git actions
+A simple script to deploy preconfigured docker containers
 
 - It can reset the docker setup by removing all existing containers, volumes and images to start fresh
     https://github.com/kameshX007/ResetDocker.git
@@ -20,11 +20,8 @@ A simple CICD pipeline using git actions
 
     5) Jellyfin
         https://github.com/kameshX007/deployJellyfin.git
-     
-    6) CoadingWS
-        https://github.com/kameshX007/deployCoadingWS.git
         
-- We can modify which componants are required using 'services' file in repo
+- We can modify which componants are required using 'services' file in repo. It has only the sh file names in it.
 - Just clone the repo and execute initiate.sh and it will deploy the componants as per services file
 
 - The initiate.sh needs following two arguments for this workflow : 
