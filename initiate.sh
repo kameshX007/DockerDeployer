@@ -4,14 +4,14 @@
 dockerUser=$1;
 vncPassword=$2;
 
-[ -z "$dockerUser" ] && echo "###Please pass username...!!!">>git_deploy.log && exit 0 || echo "Starting scripts execution for user $dockerUser">>git_deploy.log;
+[ -z "$dockerUser" ] && echo "###Please pass username...!!!" && exit 0 || echo "Starting scripts execution for user $dockerUser";
 
 file=$(cat services)
 for line in $file
 do
-    echo "Executing $line ...">>git_deploy.log
+    echo "Executing $line ..."
     sh $line $dockerUser $vncPassword
-    echo "$line executed successfully...">>git_deploy.log
+    echo "$line executed successfully..."
 done
-echo "Scripts execution complete...">>git_deploy.log
+echo "Scripts execution complete..."
 exit 0
